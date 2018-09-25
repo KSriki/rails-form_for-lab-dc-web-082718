@@ -1,0 +1,10 @@
+<h1> Student </h1>
+
+<br />
+<div><%= @student.to_s %></div>
+
+<!-- <a href="/snacks">Back to Index Page</a> -->
+<br />
+<%= link_to "Edit this Student", edit_student_path(@student) %>
+<br />
+<%= link_to "Index Page", students_path %>
